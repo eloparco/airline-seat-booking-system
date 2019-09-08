@@ -1,0 +1,92 @@
+.header {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  height: 100px;
+  color: white;
+  background-color: gray;
+}
+
+.sidebar {
+  top: 100px;
+  left: 0px;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  position: relative;
+  top: 100px;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height:100%;  
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+}
+
+.error {
+	color: red;
+}
+
+#message {
+	color: grey;
+	font-style: italic;
+}
+
+.Purchased {
+	background-color: red;
+}
+
+.Reserved {
+	background-color: orange;
+}
+
+.Free {
+	background-color: green;
+}
+
+.MyReservation {
+	background-color: yellow;
+}
+
+.logged {
+	font-style: italic;
+}
+
+.errorDiv {
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	z-index: 1000; 
+    height: 100%;
+    width: 100%; 
+    background-color: #FFFFFF;
+}
+
+.errorText {
+	margin-left: 10px;
+}
